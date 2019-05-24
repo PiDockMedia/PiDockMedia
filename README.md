@@ -19,4 +19,7 @@ Most of the technologies are built by others. This will bring those technologies
 This will be detailed mostly in the plan document however the general outline is:
 
 1. All files sit on share(s) running smb.
-2. All serving is done from Raspberry Pis.
+2. All serving is done from Raspberry Pis using shared storage.
+3. All Pis load from a common image.
+4. All setup post image loading is scripted as much as possible.
+5. All apps run as docker images.
