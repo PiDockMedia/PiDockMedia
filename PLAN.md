@@ -19,11 +19,13 @@ SMB based file share(s)
 	- Synology
 	- OpenMediaVault
 	- Freenas
-2. Samba Share
+2) Samba Share
 	- Samba 
-	- MergerFS - Multiple Disks presented as one file system - https://github.com/trapexit/mergerfs
+	- MergerFS - Multiple disks presented as one file system - https://github.com/trapexit/mergerfs
 	- Snapraid for file protection - https://www.snapraid.it/
-3. Direct Attached Storage - Defeats the purpose of having the distributed
+	- A Raspberry Pi could be used but performance could suffer.
+3) Direct Attached Storage
+	- Defeats the purpose of having the distributed army of servers
 
 Server Hardware
 ------	
