@@ -8,13 +8,13 @@ Using an army of small computers (Raspberry Pi) with a shared storage device. Ea
 
 		### SMB based file share.
 
-	## Collectors
+		## Collectors
 
-	## Processors
+		## Processors
 
-	## Servers
+		## Servers
 
-	## Utilities
+		## Utilities
 
-	## Disaster Recovery
+		## Disaster Recovery
 
