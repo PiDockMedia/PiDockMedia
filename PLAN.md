@@ -12,7 +12,9 @@ Using an army of small computers (Raspberry Pi) with a shared storage device. Ea
 Storage
 ------
 
-SMB based file share(s)
+SMB based file share(s) running on a Drobo 5N2
+
+Options considered:
 		
 1) NAS - Easy to maintain and has good file performance and some hardware failure protection.
 	- Drobo
@@ -29,6 +31,8 @@ SMB based file share(s)
 
 Server Hardware
 ------	
+
+1) 
 		
 Docker
 ------
