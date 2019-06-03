@@ -12,7 +12,8 @@ Using an army of small computers (Raspberry Pi) with a shared storage device. Ea
 Storage
 ------
 
-SMB based file share(s) running on a Drobo 5N2
+- SMB based file share(s) running on a Drobo 5N2
+- Windows Mini PC with large external disks for Disaster Recovery/Backup
 
 Options considered:
 		
@@ -28,11 +29,18 @@ Options considered:
 	- A Raspberry Pi could be used but performance could suffer.
 3) Direct Attached Storage
 	- Defeats the purpose of having the distributed army of servers
+4) Cloud
+	- Slow
+	- Expensive
 
 Server Hardware
 ------	
 
-1) 
+1) Raspberry Pi
+	- One Pi per major service
+2) Windows Mini-PC
+	- Large disks attached via USB
+	- DR/Backup Details below
 		
 Docker
 ------
@@ -48,6 +56,13 @@ Servers
 
 Utilities
 ------
+
+1) Moving Data
+	- rsync
+	- fpart
+	- fpsync
+2) Monitoring
+3) Reporting
 
 Disaster Recovery
 ------
