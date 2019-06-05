@@ -1,9 +1,14 @@
 #!/bin/bash
 
-# Once you have burned the default pi image this script will configure the pi
+# This script does the base comfiguration of all the Pis
 # with custom local configurations.
 
-# Enable ssh
+# This will find the local Pis
+# sudo nmap -sP 192.168.0.0/24 | awk '/^Nmap/{ip=$NF}/B8:27:EB/{print ip}'
+# Pulled info from these:
+# MAC Address: B8:27:EB:B0:C0:7C (Raspberry Pi Foundation)
+# Nmap scan report for 192.168.0.175
 
-# Insert the pifirstboot.sh and configure it to run at first boot.
+
+###EOF
 

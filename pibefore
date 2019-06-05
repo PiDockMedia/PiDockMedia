@@ -22,6 +22,9 @@ SSHEnable()
 {
 while [ ! -f "$BootDirPath/kernel.img" ]; do
     read -p "Full path to the /boot directory (e.g. /media/$USER/boot)" BootDirPath
+    if [ "$BootDirPath" = "default" ];then
+		BootDirPath="/media/$USER/boot"
+	fi
 done
 }
 
