@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# This script does the base comfiguration of all the Pis
+# with custom local configurations.
+
+# Don't change this file!! Adjust the pidomeconfig
+
+# This will find the local Pis
+# sudo nmap -sP 192.168.0.0/24 | awk '/^Nmap/{ip=$NF}/B8:27:EB/{print ip}'
+# Pulled info from these:
+# MAC Address: B8:27:EB:B0:C0:7C (Raspberry Pi Foundation)
+# Nmap scan report for 192.168.0.175
+# Query ip name dig +short -x 10.0.0.200 @224.0.0.251 -p 5353
+
+## RunAs Root
+## Source the config file. This contains the customizations.
+
+if [ -f "../PiDockMediaConfig/pidomeconfig" ];then
+	. ../PiDockMediaConfig/pidomeconfig
+elif [ -f ./pidomeconfig ]; then
+	. pidomeconfig
+else
+	. pidomeconfig.sh
+fi
+
+## Record every step and output in a log file
+
+## Find Unconfigured Pis and show them as <IP> <Name>
+
+## Prompt which to build
+
+## write out a in process file
+
+## Write out each config as a script named <number 000-###>.<scriptdescriptor>
+
+	## 000 set the hostname
+	
+	## 001 set the static IP
+
+## Bundle the build scripts
+
+## Copy the bundle of scripts over
+
+## SSH in to the pi
+
+## Explode all the scripts to a directory
+
+## Run each script in order. If any script fails give a non zero exit and abort
+
+## once a script has completed it gets deleted
+
+## If it failed you can see the issue, fix it, and run the process again and it will start 
+
+## Write out the final log
+
+###EOF
+
