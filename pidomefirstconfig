@@ -56,6 +56,10 @@ fi
 ##########
 
 ## Set the hostname
+## hostname <hostname>
+## echo <hostname> > /etc/hostname
+## echo "127.0.1.1       pidome01" >> /etc/hosts
+## hostname <hostname>
 
 ## Set Time Zone
 
