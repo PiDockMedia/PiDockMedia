@@ -11,7 +11,7 @@
 # MAC Address: B8:27:EB:B0:C0:7C (Raspberry Pi Foundation)
 # Nmap scan report for 192.168.0.175
 # Query ip name dig +short -x 10.0.0.200 @224.0.0.251 -p 5353
-
+# curl -sSL "https://gist.githubusercontent.com/jaymoulin/e749a189511cd965f45919f2f99e45f3/raw/0e650b38fde684c4ac534b254099d6d5543375f1/ARM%2520(Raspberry%2520PI)%2520Docker%2520Install" | sudo sh && sudo usermod -aG docker $USER
 ## RunAs Root
 ## Source the config file. This contains the customizations.
 
@@ -53,5 +53,24 @@ fi
 
 ## Write out the final log
 
-###EOF
+##########
 
+## Set the hostname
+
+## Set Time Zone
+
+## Set WiFi Country
+
+## Configure WiFi as backup network
+
+#@ Expand Filesystem
+
+## Change pi password
+
+## Adjust /etc/network/interfaces to set static IP
+
+## Install Docker
+
+## 
+
+###EOF
