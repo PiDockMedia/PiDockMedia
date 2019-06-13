@@ -10,6 +10,7 @@
 # Pulled info from these:
 # MAC Address: B8:27:EB:B0:C0:7C (Raspberry Pi Foundation)
 # Nmap scan report for 192.168.0.175
+# Query ip name dig +short -x 10.0.0.200 @224.0.0.251 -p 5353
 
 ## RunAs Root
 ## Source the config file. This contains the customizations.
