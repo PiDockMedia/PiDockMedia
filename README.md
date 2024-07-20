@@ -1,5 +1,7 @@
 # PiDockMedia
 
+This was a plan I had when I had more time on my hands. The moment I got a NAS, I retired my Linux server within 3 months and my RPi-based plans within 6. I have been considering the idea of going back to this at some point. My NAS still works great; however, as an application platform, it does not always perform as well as I would like. With the rise of some very fast RPi hardware at an affordable price, I am becoming more interested in exploring this again. For me, the key part will be time management. Can I design a solution where my collection of RPis could be treated as generic commodity platforms where I can store images on a NAS, netboot them, log to a central server, and quickly bring another small piece of hardware up to keep running in case of hardware failures? And honestly, as I found recently when I designed a very complex bash script of close to 500 lines in less than 4 hours with features I was not even sure how to implement, AI opens a LOT of doors. So…we’ll see.
+
 # History
 
 Bzz Bzz Bzzz....zowie! Is this thing on? Warning, this will be reorganized later but is currently a stream of robotic conscious. Check out the PLAN document you see in the list above for plan details, and the INSTALL document for install details, some of which might end up here eventually.
